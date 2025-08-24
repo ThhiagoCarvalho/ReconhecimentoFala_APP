@@ -1,0 +1,2 @@
+# ReconhecimentoFala_APP
+
