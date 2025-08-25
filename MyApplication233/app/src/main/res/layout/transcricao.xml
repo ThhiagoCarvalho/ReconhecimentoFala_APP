@@ -5,30 +5,32 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="24dp"
-    android:background="#F5F5F5">
+    android:background="#4585F3"> <!-- Fundo azul -->
 
     <!-- Título -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Transcrição de Voz"
-        android:textSize="24sp"
+        android:text="🎙️ Transcrição de Voz"
+        android:textSize="26sp"
         android:textStyle="bold"
-        android:textColor="#333333"
-        android:paddingBottom="40dp" />
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
 
     <!-- Botão de iniciar -->
     <Button
         android:id="@+id/btnStart"
-        android:layout_width="250dp"
-        android:layout_height="60dp"
-        android:text="🎤 Iniciar Gravação"
+        android:layout_width="260dp"
+        android:layout_height="65dp"
+        android:text="Iniciar Gravação"
         android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="#FFFFFF"
-        android:backgroundTint="#6200EE"
-        android:elevation="6dp"
-        android:layout_marginBottom="30dp"
+        android:backgroundTint="#4CAF50"
+        android:clipToOutline="true"
+        android:elevation="8dp"
+        android:layout_marginBottom="40dp"
         android:stateListAnimator="@null" />
 
     <!-- Resultado da transcrição -->
@@ -38,10 +40,11 @@
         android:layout_height="wrap_content"
         android:text="Fale algo..."
         android:textSize="18sp"
-        android:textColor="#444444"
-        android:padding="20dp"
+        android:textColor="#333333"
         android:gravity="center"
+        android:padding="20dp"
         android:background="#FFFFFF"
-        android:elevation="4dp"
-        android:layout_margin="10dp" />
+        android:elevation="6dp"
+        android:clipToOutline="true"
+        android:layout_margin="16dp" />
 </LinearLayout>
